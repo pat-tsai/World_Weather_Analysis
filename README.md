@@ -13,3 +13,8 @@ from config import weather_api_key
 import numpy as np
 ```
 I first used numpy's built in random functions to generate a random list of longitude/latitude coordinates. Citipy could then be used to find cities based on these coordinates. From there, I utilized the requests module to obtain city traits including temp., humidity, and cloudiness. Lastly, pandas was used to convert our data into a DataFrame, which could be easily exported to my desired output csv. 
+
+### Deliverable 2:
+In this deliverable, I filtered the results of the previously generated dataframe based on a range of user-input weather temperature ranges. The google maps API was then used to create a marker layer map with pop-up hotel markers.
+
+![ScreenShots]('WeatherPy_vacation_map.PNG')

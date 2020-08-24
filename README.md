@@ -18,3 +18,7 @@ I first used numpy's built in random functions to generate a random list of long
 In this deliverable, I filtered the results of the previously generated dataframe based on a range of user-input weather temperature ranges. The google maps API was then used to create a marker layer map with pop-up hotel markers.
 
 ![ScreenShots](Vacation_Search/WeatherPy_vacation_map.png)
+
+
+### Deliverable 3:
+In the final deliverable, I generated a direction labeled map using the loc function to create individual dataframes, and using waypoints to help create the final map.

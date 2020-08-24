@@ -21,4 +21,6 @@ In this deliverable, I filtered the results of the previously generated datafram
 
 
 ### Deliverable 3:
-In the final deliverable, I generated a direction labeled map using the loc function to create individual dataframes, and using waypoints to help create the final map.
+In the final deliverable, I generated a direction labeled map using the loc function to create individual dataframes, and using waypoints to help create the final map. Upon selecting a starting destination, nearby cities are found by filtering to that country with similar temperatures to ensure distances would not be too far. Lastly, balloon descriptions were mapped to coordinate points to allow us to see an overview of the travel itinerary.
+
+![ScreenShots](Vacation_Itinerary/WeatherPy_travel_map_markers.PNG)
